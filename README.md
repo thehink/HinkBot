@@ -1,1 +1,2 @@
 # HinkBot
+A Discord Bot
