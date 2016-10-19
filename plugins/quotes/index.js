@@ -4,7 +4,7 @@ const Plugin = require('../../lib/plugin');
 class Quotes extends Plugin{
   constructor(){
     super();
-    this.setName('Bungie');
+    this.setName('Quotes');
     this.setVersion('0.0.1');
     this.setPrefix('&');
     this.addCommand('&quote {user::optional} {quote::optional}', this.quote, ['ADMINISTRATOR', 'Thehink#0253']);
@@ -20,10 +20,11 @@ class Quotes extends Plugin{
   }
 
   add(message, params){
+    /*
     this.storage.add('quotes', params.quote);
     this.storage.remove('quotes', 'index');
     this.storage.set('quotes', params.quote);
-    this.storage.get('quotes');
+    this.storage.get('quotes');*/
   }
 
 }
