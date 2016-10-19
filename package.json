@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "Benjamin Rizk"
+  },
+  "bugs": {
+    "url": "https://github.com/thehink/HinkBot/issues"
+  },
+  "dependencies": {
+    "discord.js": "^9.3.0",
+    "mongoose": "^4.6.4",
+    "node-fetch": "^1.6.3"
+  },
+  "description": "A Discord Bot",
+  "devDependencies": {},
+  "homepage": "https://github.com/thehink/HinkBot",
+  "keywords": [
+    "discordjs",
+    "discord",
+    "bot"
+  ],
+  "license": "MIT",
+  "main": "hinkbot.js",
+  "name": "HinkBot",
+  "optionalDependencies": {},
+  "readme": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thehink/HinkBot.git"
+  },
+  "version": "0.0.1"
+}
