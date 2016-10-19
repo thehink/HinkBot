@@ -8,7 +8,8 @@
   "dependencies": {
     "discord.js": "^9.3.0",
     "mongoose": "^4.6.4",
-    "node-fetch": "^1.6.3"
+    "node-fetch": "^1.6.3",
+    "recursive-readdir": "^2.1.0"
   },
   "description": "A Discord Bot",
   "devDependencies": {},
@@ -27,5 +28,8 @@
     "type": "git",
     "url": "git+https://github.com/thehink/HinkBot.git"
   },
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "scripts": {
+    "setup": "node setup.js"
+  }
 }
