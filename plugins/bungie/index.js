@@ -19,9 +19,11 @@ class Bungie extends Plugin{
 
     this.storage.schema({
       channels: Array,
+    }).then(data => {
+      console.log('Got Data');
+      this.channels = this.storage.get('channels');
     });
 
-    this.channels = this.storage.get('channels');
     this.timeout = setInterval(() => {
       this.tick();
     }, 1000*60*5);
