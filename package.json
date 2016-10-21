@@ -7,8 +7,10 @@
   },
   "dependencies": {
     "discord.js": "^9.3.0",
+    "mongojs": "^2.4.0",
     "mongoose": "^4.6.4",
     "node-fetch": "^1.6.3",
+    "psn-api": "git+https://github.com/thehink/psn-api.git",
     "recursive-readdir": "^2.1.0"
   },
   "description": "A Discord Bot",
