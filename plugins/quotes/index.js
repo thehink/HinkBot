@@ -11,7 +11,10 @@ class Quotes extends Plugin{
     this.addCommand('&quote add {quote}', this.add, ['ADMINISTRATOR', 'Thehink#0253']);
 
     this.storage.schema({
-      quotes: Array,
+      quotes: [String]
+    }).then(data => {
+      this.storage.set('tests', 'Not Hello');
+      console.log('GET Test', this.storage.get('tests'));
     });
   }
 

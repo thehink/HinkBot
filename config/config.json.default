@@ -1,5 +1,5 @@
 {
     "method": "token",
     "token": "",
-    "mongodb": "user:pass@localhost:port/database"
+    "mongodb": "mongodb://user:pass@localhost:port/database"
 }

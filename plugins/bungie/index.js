@@ -18,9 +18,8 @@ class Bungie extends Plugin{
     this.addCommand('bungie-alerts', this.status, ['ADMINISTRATOR', 'Thehink#0253']);
 
     this.storage.schema({
-      channels: Array,
+      channels: [String],
     }).then(data => {
-      console.log('Got Data');
       this.channels = this.storage.get('channels');
     });
 
